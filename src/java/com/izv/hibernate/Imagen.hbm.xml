@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 01-feb-2015 11:52:23 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="inmueble" name="com.izv.hibernate.Imagen" optimistic-lock="version" table="imagen">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="ruta" type="string">
+      <column length="100" name="ruta" not-null="true"/>
+    </property>
+    <property name="idInmueble" type="int">
+      <column name="idInmueble" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

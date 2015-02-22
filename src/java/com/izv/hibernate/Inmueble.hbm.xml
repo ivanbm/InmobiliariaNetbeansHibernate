@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 01-feb-2015 11:52:23 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="inmueble" name="com.izv.hibernate.Inmueble" optimistic-lock="version" table="inmueble">
+    <id name="id" type="java.lang.Integer">
+      <column name="id"/>
+      <generator class="identity"/>
+    </id>
+    <property name="calle" type="string">
+      <column length="40" name="calle" not-null="true"/>
+    </property>
+    <property name="localidad" type="string">
+      <column length="40" name="localidad" not-null="true"/>
+    </property>
+    <property name="tipo" type="string">
+      <column length="40" name="tipo" not-null="true"/>
+    </property>
+    <property name="precio" type="int">
+      <column name="precio" not-null="true"/>
+    </property>
+    <property name="subido" type="int">
+      <column name="subido" not-null="true"/>
+    </property>
+  </class>
+</hibernate-mapping>

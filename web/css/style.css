@@ -1,0 +1,49 @@
+#header{
+    padding-top: 20px;
+    width: 100%;
+    height: 40px;
+    background-color: aquamarine;
+}
+
+.menu{
+    padding: 10px;
+    list-style: none;
+    display: inline;
+}
+
+.menu li{
+    padding: 10px;
+    display: inline;
+}
+
+.menu li a {
+    text-decoration: none;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.descripcion{
+    list-style: none;
+}
+
+.mostrarIn li{
+    float: left;
+    display: inline
+}
+
+.desc{
+    float: left;
+    display: inline
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    max-width: 400px;
+}
